@@ -8,6 +8,7 @@ import de.greenrobot.daogenerator.Schema;
 
 /**
  * Created by admin on 2017/9/11.
+ * 该代码用于生成基于GreenDao所需要的类文件
  */
 
 public class MClass {
