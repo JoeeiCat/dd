@@ -12,7 +12,7 @@ import de.greenrobot.daogenerator.Schema;
  */
 
 public class MClass {
-    /*
+
     public static  void main(String [] args){
 
         Schema mySchema = new Schema(1, "com.patrickstar.greendao");
@@ -33,5 +33,5 @@ public class MClass {
         }
 
     }
-    */
+
 }
