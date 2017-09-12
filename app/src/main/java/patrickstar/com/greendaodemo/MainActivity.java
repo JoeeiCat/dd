@@ -92,7 +92,8 @@ public class MainActivity extends Activity implements OnClickListener {
      * 相等查询,where参数中可以添加多个相等的条件
      */
     private void queryEq(){
-        UserInfo user = userInfoDao.queryBuilder().where(UserInfoDao.Properties.UserName.eq("admin")).unique();
+        UserInfo user = userInfoDao.queryBuilder()
+                .where(UserInfoDao.Properties.UserName.eq("admin")).unique();
         tvMsg.setText(user.getRealName());
     }
 
